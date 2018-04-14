@@ -1,0 +1,27 @@
+*.apk
+
+*.dex
+
+*.class
+
+*./bin/
+*./gen/
+*./out/
+*./obj/
+
+.gradle/
+build/
+*/build/
+gradlew
+gradlew.bat
+
+
+*.iml
+*/*.iml
+
+gradle/
+
+# Eclipse Project files
+
+.settings/
+
