@@ -1,0 +1,197 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NVTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP1751.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "./" /I "../ffmpeg_win/" /I "./Common" /I "./JJSON" /I "./Net" /I "./Player" /I "./HI" /D "WIN32" /D "_WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "JNVSDK_EXPORTS" /FR"Debug/" /Fp"Debug/NVTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\NVTest.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\NVTestDlg.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Draw\JDDraw.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Sound\JDSound.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP1751.tmp" 
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP1752.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "./" /I "../ffmpeg_win/" /I "./Common" /I "./JJSON" /I "./Net" /I "./Player" /I "./HI" /D "WIN32" /D "_WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "JNVSDK_EXPORTS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\ProtocolNV.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Common\JGetRunTimeTC.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\JJSON\JJson.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\JJSON\json.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\JJSON\json_helper.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Net\JNVCmdTcp.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Net\JNVProtocolTCP.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Net\JNVStreamTcp.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Net\JNVTalkTcp.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\Audio\g711.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\Audio\g726.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\Audio\g726_16.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\Audio\g726_24.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\Audio\g726_32.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\Audio\g726_40.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\Audio\g72x.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\Decoder.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\FMReader.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\FMReaderJNV.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\ImgConver.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\JBuffPool.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\JNVPlayer.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\JNVPlayerMng.cpp"
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\Player\JRecFile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP1752.tmp" 
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP1753.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "./" /I "../ffmpeg_win/" /I "./Common" /I "./JJSON" /I "./Net" /I "./Player" /I "./HI" /D "WIN32" /D "_WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "JNVSDK_EXPORTS" /FR"Debug/" /Fp"Debug/NVTest.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\busClient\project\Android_Bus_MonitorClient\jni\JNVPlayer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP1753.tmp" 
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP1754.tmp" with contents
+[
+JSocketCtrlD.lib dsound.lib dxguid.lib ddraw.lib swscale.lib avcodec.lib avutil.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/NVTestD.pdb" /debug /machine:I386 /nodefaultlib:"libcd.lib" /out:".\bin\NVTestD.exe" /pdbtype:sept /libpath:"../ffmpeg_win" /libpath:"./HI" 
+.\Debug\NVTest.obj
+.\Debug\NVTestDlg.obj
+.\Debug\ProtocolNV.obj
+.\Debug\StdAfx.obj
+.\Debug\JGetRunTimeTC.obj
+.\Debug\JJson.obj
+.\Debug\json.obj
+.\Debug\json_helper.obj
+.\Debug\JNVCmdTcp.obj
+.\Debug\JNVProtocolTCP.obj
+.\Debug\JNVStreamTcp.obj
+.\Debug\JNVTalkTcp.obj
+.\Debug\g711.obj
+.\Debug\g726.obj
+.\Debug\g726_16.obj
+.\Debug\g726_24.obj
+.\Debug\g726_32.obj
+.\Debug\g726_40.obj
+.\Debug\g72x.obj
+.\Debug\Decoder.obj
+.\Debug\FMReader.obj
+.\Debug\FMReaderJNV.obj
+.\Debug\ImgConver.obj
+.\Debug\JBuffPool.obj
+.\Debug\JNVPlayer.obj
+.\Debug\JNVPlayerMng.obj
+.\Debug\JRecFile.obj
+.\Debug\JDDraw.obj
+.\Debug\JDSound.obj
+.\Debug\NVTest.res
+]
+Creating command line "link.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP1754.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+NVTest.cpp
+NVTestDlg.cpp
+JDDraw.cpp
+JDSound.cpp
+Generating Code...
+Compiling...
+ProtocolNV.cpp
+JGetRunTimeTC.cpp
+JJson.cpp
+json.cpp
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1260) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1260) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1261) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1261) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1263) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1265) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1275) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1275) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1276) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1276) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1277) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1277) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1279) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1281) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1283) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1294) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1294) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1295) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1295) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1296) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1296) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1297) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1297) : warning C4309: 'initializing' : truncation of constant value
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1299) : warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'const char' can equal the given constant
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1303) : warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'const char' can equal the given constant
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1322) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1324) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1326) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+d:\busclient\project\android_bus_monitorclient\jni\jnvplayer\jjson\json.cpp(1328) : warning C4244: '+=' : conversion from '__int64' to 'char', possible loss of data
+json_helper.cpp
+JNVCmdTcp.cpp
+JNVProtocolTCP.cpp
+JNVStreamTcp.cpp
+JNVTalkTcp.cpp
+g711.cpp
+g726.cpp
+g726_16.cpp
+g726_24.cpp
+g726_32.cpp
+g726_40.cpp
+g72x.cpp
+Decoder.cpp
+FMReader.cpp
+FMReaderJNV.cpp
+ImgConver.cpp
+Generating Code...
+Compiling...
+JBuffPool.cpp
+JNVPlayer.cpp
+JNVPlayerMng.cpp
+JRecFile.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP1755.tmp" with contents
+[
+/nologo /o"Debug/NVTest.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\NVTest.sbr
+.\Debug\NVTestDlg.sbr
+.\Debug\ProtocolNV.sbr
+.\Debug\JGetRunTimeTC.sbr
+.\Debug\JJson.sbr
+.\Debug\json.sbr
+.\Debug\json_helper.sbr
+.\Debug\JNVCmdTcp.sbr
+.\Debug\JNVProtocolTCP.sbr
+.\Debug\JNVStreamTcp.sbr
+.\Debug\JNVTalkTcp.sbr
+.\Debug\g711.sbr
+.\Debug\g726.sbr
+.\Debug\g726_16.sbr
+.\Debug\g726_24.sbr
+.\Debug\g726_32.sbr
+.\Debug\g726_40.sbr
+.\Debug\g72x.sbr
+.\Debug\Decoder.sbr
+.\Debug\FMReader.sbr
+.\Debug\FMReaderJNV.sbr
+.\Debug\ImgConver.sbr
+.\Debug\JBuffPool.sbr
+.\Debug\JNVPlayer.sbr
+.\Debug\JNVPlayerMng.sbr
+.\Debug\JRecFile.sbr
+.\Debug\JDDraw.sbr
+.\Debug\JDSound.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP1755.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NVTestD.exe - 0 error(s), 29 warning(s)
+</pre>
+</body>
+</html>

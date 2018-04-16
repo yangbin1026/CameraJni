@@ -1,0 +1,202 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\NVTest.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\NVTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NVTEST_DIALOG DIALOGEX 0, 0, 441, 269
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "NVTest"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "获取设备列表",IDC_BT_GET_DEV_LIST,7,41,57,14
+    PUSHBUTTON      "获取录像列表",IDC_BT_GET_REC_LIST,7,59,57,14
+    PUSHBUTTON      "获取GPS信息",IDC_BT_GET_GPS,69,41,57,14
+    PUSHBUTTON      "取消GPS信息",IDC_BT_CLOSE_GPS,69,59,57,14
+    DEFPUSHBUTTON   "确定",IDOK,7,248,57,14
+    PUSHBUTTON      "取消",IDCANCEL,69,248,57,14
+    PUSHBUTTON      "录像下载",IDC_BT_GET_REC_DOWN,7,78,57,14
+    PUSHBUTTON      "打开实时流",IDC_BT_OPEN_STREAM,7,116,57,14
+    PUSHBUTTON      "关闭实时流",IDC_BT_CLOSE_STREAM,7,177,57,14
+    PUSHBUTTON      "登录",IDC_BT_LOGIN,7,7,57,14
+    PUSHBUTTON      "登出",IDC_BT_LOGOUT,69,7,57,14
+    PUSHBUTTON      "抓拍",IDC_BT_CAPTURE,7,132,57,14
+    PUSHBUTTON      "开始录像",IDC_BT_START_REC,7,147,57,14
+    PUSHBUTTON      "停止录像",IDC_BT_STOP_REC,7,162,57,14
+    PUSHBUTTON      "打开录像流",IDC_BT_OPEN_REC,133,116,57,14
+    PUSHBUTTON      "关闭录像流",IDC_BT_CLOSE_REC,133,177,57,14
+    PUSHBUTTON      "抓拍",IDC_BT_CAPTURE_REC,133,132,57,14
+    PUSHBUTTON      "打开回放流",IDC_BT_OPEN_REPLAY,69,116,57,14
+    PUSHBUTTON      "关闭回放流",IDC_BT_CLOSE_REPLAY,69,147,57,14
+    PUSHBUTTON      "暂停回放流",IDC_BT_PAUSE_REPLAY,69,132,57,14
+    PUSHBUTTON      "获取报警信息",IDC_BT_GET_ALARM,133,41,57,14
+    PUSHBUTTON      "取消报警信息",IDC_BT_CLOSE_ALARM,133,59,57,14
+    PUSHBUTTON      "暂停",IDC_BT_PAUSE_REC,133,149,57,14
+    PUSHBUTTON      "继续",IDC_BT_CONTINUE_REC,133,163,57,14
+    CONTROL         "",IDC_ST_VIEW,"Static",SS_BLACKRECT,207,7,227,184
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,7,242,427,1
+    PUSHBUTTON      "测试",IDC_BT_TEST,384,248,50,14
+    PUSHBUTTON      "开始对讲",IDC_BT_START_TALK,7,208,57,14
+    PUSHBUTTON      "结束对讲",IDC_BT_STOP_TALK,7,225,57,14
+    PUSHBUTTON      "获取服务列表",IDC_BT_GET_SERVER_LIST,69,78,57,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "NVTest Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "NVTest\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NVTest.EXE\0"
+            VALUE "ProductName", "NVTest 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_NVTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 434
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\NVTest.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

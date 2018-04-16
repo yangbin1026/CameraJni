@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5290C4BA175DA54D00C1EAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5290C4B9175DA54D00C1EAEC /* Foundation.framework */; };
+		5290C4C1175DA54D00C1EAEC /* JNVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5290C4C0175DA54D00C1EAEC /* JNVPlayer.m */; };
+		5290C4F3175DA71600C1EAEC /* JGetRunTimeTC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C4E4175DA71600C1EAEC /* JGetRunTimeTC.cpp */; };
+		5290C4FD175DA72700C1EAEC /* IOSUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C4F4175DA72700C1EAEC /* IOSUtils.cpp */; };
+		5290C4FE175DA72700C1EAEC /* JJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C4F7175DA72700C1EAEC /* JJson.cpp */; };
+		5290C4FF175DA72700C1EAEC /* json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C4F9175DA72700C1EAEC /* json.cpp */; };
+		5290C500175DA72700C1EAEC /* json_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C4FB175DA72700C1EAEC /* json_helper.cpp */; };
+		5290C503175DA74400C1EAEC /* JNVPlayerIOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C501175DA74400C1EAEC /* JNVPlayerIOS.cpp */; };
+		5290C50E175DA75500C1EAEC /* JNVCmdTcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C506175DA75500C1EAEC /* JNVCmdTcp.cpp */; };
+		5290C50F175DA75500C1EAEC /* JNVProtocolTCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C508175DA75500C1EAEC /* JNVProtocolTCP.cpp */; };
+		5290C510175DA75500C1EAEC /* JNVStreamTcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C50A175DA75500C1EAEC /* JNVStreamTcp.cpp */; };
+		5290C511175DA75500C1EAEC /* JNVTalkTcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C50C175DA75500C1EAEC /* JNVTalkTcp.cpp */; };
+		5290C534175DA76000C1EAEC /* g711.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C514175DA76000C1EAEC /* g711.cpp */; };
+		5290C535175DA76000C1EAEC /* g726.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C515175DA76000C1EAEC /* g726.cpp */; };
+		5290C536175DA76000C1EAEC /* g726_16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C517175DA76000C1EAEC /* g726_16.cpp */; };
+		5290C537175DA76000C1EAEC /* g726_24.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C518175DA76000C1EAEC /* g726_24.cpp */; };
+		5290C538175DA76000C1EAEC /* g726_32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C519175DA76000C1EAEC /* g726_32.cpp */; };
+		5290C539175DA76000C1EAEC /* g726_40.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C51A175DA76000C1EAEC /* g726_40.cpp */; };
+		5290C53A175DA76000C1EAEC /* g72x.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C51B175DA76000C1EAEC /* g72x.cpp */; };
+		5290C53D175DA76000C1EAEC /* Decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C522175DA76000C1EAEC /* Decoder.cpp */; };
+		5290C53E175DA76000C1EAEC /* FMReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C524175DA76000C1EAEC /* FMReader.cpp */; };
+		5290C53F175DA76000C1EAEC /* FMReaderJNV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C526175DA76000C1EAEC /* FMReaderJNV.cpp */; };
+		5290C540175DA76000C1EAEC /* ImgConver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C528175DA76000C1EAEC /* ImgConver.cpp */; };
+		5290C541175DA76000C1EAEC /* JBuffPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C52A175DA76000C1EAEC /* JBuffPool.cpp */; };
+		5290C542175DA76000C1EAEC /* JNVPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C52C175DA76000C1EAEC /* JNVPlayer.cpp */; };
+		5290C543175DA76000C1EAEC /* JNVPlayerMng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C52E175DA76000C1EAEC /* JNVPlayerMng.cpp */; };
+		5290C544175DA76000C1EAEC /* JRecFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C530175DA76000C1EAEC /* JRecFile.cpp */; };
+		5290C545175DA76000C1EAEC /* ProtocolNV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5290C532175DA76000C1EAEC /* ProtocolNV.cpp */; };
+		52924609175DD52600AB58CB /* libJNVPlayer.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5290C4B6175DA54D00C1EAEC /* libJNVPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5290C4B4175DA54D00C1EAEC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SRCROOT)/../JNVPlayer/bin";
+			dstSubfolderSpec = 0;
+			files = (
+				52924609175DD52600AB58CB /* libJNVPlayer.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5290C4B6175DA54D00C1EAEC /* libJNVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJNVPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5290C4B9175DA54D00C1EAEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5290C4BD175DA54D00C1EAEC /* JNVPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JNVPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		5290C4BE175DA54D00C1EAEC /* JNVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNVPlayer.h; sourceTree = "<group>"; };
+		5290C4C0175DA54D00C1EAEC /* JNVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNVPlayer.m; sourceTree = "<group>"; };
+		5290C4C8175DA54D00C1EAEC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5290C4CA175DA54D00C1EAEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5290C4E3175DA71600C1EAEC /* JBunchEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBunchEX.h; sourceTree = "<group>"; };
+		5290C4E4175DA71600C1EAEC /* JGetRunTimeTC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JGetRunTimeTC.cpp; sourceTree = "<group>"; };
+		5290C4E5175DA71600C1EAEC /* JGetRunTimeTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGetRunTimeTC.h; sourceTree = "<group>"; };
+		5290C4E6175DA71600C1EAEC /* JLMuliticastSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMuliticastSocket.h; sourceTree = "<group>"; };
+		5290C4E7175DA71600C1EAEC /* JLogWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLogWriter.h; sourceTree = "<group>"; };
+		5290C4E8175DA71600C1EAEC /* JLSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSocket.h; sourceTree = "<group>"; };
+		5290C4E9175DA71600C1EAEC /* JLSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSocketClient.h; sourceTree = "<group>"; };
+		5290C4EA175DA71600C1EAEC /* JLSocketDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSocketDef.h; sourceTree = "<group>"; };
+		5290C4EC175DA71600C1EAEC /* JLTcpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTcpClient.h; sourceTree = "<group>"; };
+		5290C4EE175DA71600C1EAEC /* JLThreadCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLThreadCtrl.h; sourceTree = "<group>"; };
+		5290C4F0175DA71600C1EAEC /* j_vs_ver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = j_vs_ver.h; sourceTree = "<group>"; };
+		5290C4F1175DA71600C1EAEC /* MutexLockLinux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutexLockLinux.h; sourceTree = "<group>"; };
+		5290C4F4175DA72700C1EAEC /* IOSUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOSUtils.cpp; sourceTree = "<group>"; };
+		5290C4F5175DA72700C1EAEC /* IOSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSUtils.h; sourceTree = "<group>"; };
+		5290C4F7175DA72700C1EAEC /* JJson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JJson.cpp; sourceTree = "<group>"; };
+		5290C4F8175DA72700C1EAEC /* JJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJson.h; sourceTree = "<group>"; };
+		5290C4F9175DA72700C1EAEC /* json.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json.cpp; sourceTree = "<group>"; };
+		5290C4FA175DA72700C1EAEC /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		5290C4FB175DA72700C1EAEC /* json_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_helper.cpp; sourceTree = "<group>"; };
+		5290C4FC175DA72700C1EAEC /* json_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_helper.h; sourceTree = "<group>"; };
+		5290C501175DA74400C1EAEC /* JNVPlayerIOS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JNVPlayerIOS.cpp; sourceTree = "<group>"; };
+		5290C502175DA74400C1EAEC /* JNVPlayerIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNVPlayerIOS.h; sourceTree = "<group>"; };
+		5290C504175DA75500C1EAEC /* lib_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_def.h; sourceTree = "<group>"; };
+		5290C506175DA75500C1EAEC /* JNVCmdTcp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JNVCmdTcp.cpp; sourceTree = "<group>"; };
+		5290C507175DA75500C1EAEC /* JNVCmdTcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNVCmdTcp.h; sourceTree = "<group>"; };
+		5290C508175DA75500C1EAEC /* JNVProtocolTCP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JNVProtocolTCP.cpp; sourceTree = "<group>"; };
+		5290C509175DA75500C1EAEC /* JNVProtocolTCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNVProtocolTCP.h; sourceTree = "<group>"; };
+		5290C50A175DA75500C1EAEC /* JNVStreamTcp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JNVStreamTcp.cpp; sourceTree = "<group>"; };
+		5290C50B175DA75500C1EAEC /* JNVStreamTcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNVStreamTcp.h; sourceTree = "<group>"; };
+		5290C50C175DA75500C1EAEC /* JNVTalkTcp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JNVTalkTcp.cpp; sourceTree = "<group>"; };
+		5290C50D175DA75500C1EAEC /* JNVTalkTcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNVTalkTcp.h; sourceTree = "<group>"; };
+		5290C514175DA76000C1EAEC /* g711.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = g711.cpp; sourceTree = "<group>"; };
+		5290C515175DA76000C1EAEC /* g726.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = g726.cpp; sourceTree = "<group>"; };
+		5290C516175DA76000C1EAEC /* g726.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = g726.h; sourceTree = "<group>"; };
+		5290C517175DA76000C1EAEC /* g726_16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = g726_16.cpp; sourceTree = "<group>"; };
+		5290C518175DA76000C1EAEC /* g726_24.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = g726_24.cpp; sourceTree = "<group>"; };
+		5290C519175DA76000C1EAEC /* g726_32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = g726_32.cpp; sourceTree = "<group>"; };
+		5290C51A175DA76000C1EAEC /* g726_40.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = g726_40.cpp; sourceTree = "<group>"; };
+		5290C51B175DA76000C1EAEC /* g72x.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = g72x.cpp; sourceTree = "<group>"; };
+		5290C51C175DA76000C1EAEC /* g72x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = g72x.h; sourceTree = "<group>"; };
+		5290C51D175DA76000C1EAEC /* private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = private.h; sourceTree = "<group>"; };
+		5290C522175DA76000C1EAEC /* Decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decoder.cpp; sourceTree = "<group>"; };
+		5290C523175DA76000C1EAEC /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		5290C524175DA76000C1EAEC /* FMReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FMReader.cpp; sourceTree = "<group>"; };
+		5290C525175DA76000C1EAEC /* FMReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMReader.h; sourceTree = "<group>"; };
+		5290C526175DA76000C1EAEC /* FMReaderJNV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FMReaderJNV.cpp; sourceTree = "<group>"; };
+		5290C527175DA76000C1EAEC /* FMReaderJNV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMReaderJNV.h; sourceTree = "<group>"; };
+		5290C528175DA76000C1EAEC /* ImgConver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImgConver.cpp; sourceTree = "<group>"; };
+		5290C529175DA76000C1EAEC /* ImgConver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgConver.h; sourceTree = "<group>"; };
+		5290C52A175DA76000C1EAEC /* JBuffPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JBuffPool.cpp; sourceTree = "<group>"; };
+		5290C52B175DA76000C1EAEC /* JBuffPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBuffPool.h; sourceTree = "<group>"; };
+		5290C52C175DA76000C1EAEC /* JNVPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JNVPlayer.cpp; sourceTree = "<group>"; };
+		5290C52D175DA76000C1EAEC /* JNVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNVPlayer.h; sourceTree = "<group>"; };
+		5290C52E175DA76000C1EAEC /* JNVPlayerMng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JNVPlayerMng.cpp; sourceTree = "<group>"; };
+		5290C52F175DA76000C1EAEC /* JNVPlayerMng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNVPlayerMng.h; sourceTree = "<group>"; };
+		5290C530175DA76000C1EAEC /* JRecFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JRecFile.cpp; sourceTree = "<group>"; };
+		5290C531175DA76000C1EAEC /* JRecFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRecFile.h; sourceTree = "<group>"; };
+		5290C532175DA76000C1EAEC /* ProtocolNV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProtocolNV.cpp; sourceTree = "<group>"; };
+		5290C533175DA76000C1EAEC /* ProtocolNV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolNV.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5290C4B3175DA54D00C1EAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5290C4BA175DA54D00C1EAEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5290C4AD175DA54D00C1EAEC = {
+			isa = PBXGroup;
+			children = (
+				5290C4E2175DA71600C1EAEC /* Common */,
+				5290C505175DA75500C1EAEC /* Net */,
+				5290C512175DA76000C1EAEC /* Player */,
+				5290C4F6175DA72700C1EAEC /* JJSON */,
+				5290C532175DA76000C1EAEC /* ProtocolNV.cpp */,
+				5290C533175DA76000C1EAEC /* ProtocolNV.h */,
+				5290C504175DA75500C1EAEC /* lib_def.h */,
+				5290C501175DA74400C1EAEC /* JNVPlayerIOS.cpp */,
+				5290C502175DA74400C1EAEC /* JNVPlayerIOS.h */,
+				5290C4F4175DA72700C1EAEC /* IOSUtils.cpp */,
+				5290C4F5175DA72700C1EAEC /* IOSUtils.h */,
+				5290C4BB175DA54D00C1EAEC /* JNVPlayer */,
+				5290C4B8175DA54D00C1EAEC /* Frameworks */,
+				5290C4B7175DA54D00C1EAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5290C4B7175DA54D00C1EAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5290C4B6175DA54D00C1EAEC /* libJNVPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5290C4B8175DA54D00C1EAEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5290C4B9175DA54D00C1EAEC /* Foundation.framework */,
+				5290C4C8175DA54D00C1EAEC /* SenTestingKit.framework */,
+				5290C4CA175DA54D00C1EAEC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5290C4BB175DA54D00C1EAEC /* JNVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5290C4BE175DA54D00C1EAEC /* JNVPlayer.h */,
+				5290C4C0175DA54D00C1EAEC /* JNVPlayer.m */,
+				5290C4BC175DA54D00C1EAEC /* Supporting Files */,
+			);
+			path = JNVPlayer;
+			sourceTree = "<group>";
+		};
+		5290C4BC175DA54D00C1EAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5290C4BD175DA54D00C1EAEC /* JNVPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5290C4E2175DA71600C1EAEC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5290C4E3175DA71600C1EAEC /* JBunchEX.h */,
+				5290C4E4175DA71600C1EAEC /* JGetRunTimeTC.cpp */,
+				5290C4E5175DA71600C1EAEC /* JGetRunTimeTC.h */,
+				5290C4E6175DA71600C1EAEC /* JLMuliticastSocket.h */,
+				5290C4E7175DA71600C1EAEC /* JLogWriter.h */,
+				5290C4E8175DA71600C1EAEC /* JLSocket.h */,
+				5290C4E9175DA71600C1EAEC /* JLSocketClient.h */,
+				5290C4EA175DA71600C1EAEC /* JLSocketDef.h */,
+				5290C4EC175DA71600C1EAEC /* JLTcpClient.h */,
+				5290C4EE175DA71600C1EAEC /* JLThreadCtrl.h */,
+				5290C4F0175DA71600C1EAEC /* j_vs_ver.h */,
+				5290C4F1175DA71600C1EAEC /* MutexLockLinux.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5290C4F6175DA72700C1EAEC /* JJSON */ = {
+			isa = PBXGroup;
+			children = (
+				5290C4F7175DA72700C1EAEC /* JJson.cpp */,
+				5290C4F8175DA72700C1EAEC /* JJson.h */,
+				5290C4F9175DA72700C1EAEC /* json.cpp */,
+				5290C4FA175DA72700C1EAEC /* json.h */,
+				5290C4FB175DA72700C1EAEC /* json_helper.cpp */,
+				5290C4FC175DA72700C1EAEC /* json_helper.h */,
+			);
+			path = JJSON;
+			sourceTree = "<group>";
+		};
+		5290C505175DA75500C1EAEC /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				5290C506175DA75500C1EAEC /* JNVCmdTcp.cpp */,
+				5290C507175DA75500C1EAEC /* JNVCmdTcp.h */,
+				5290C508175DA75500C1EAEC /* JNVProtocolTCP.cpp */,
+				5290C509175DA75500C1EAEC /* JNVProtocolTCP.h */,
+				5290C50A175DA75500C1EAEC /* JNVStreamTcp.cpp */,
+				5290C50B175DA75500C1EAEC /* JNVStreamTcp.h */,
+				5290C50C175DA75500C1EAEC /* JNVTalkTcp.cpp */,
+				5290C50D175DA75500C1EAEC /* JNVTalkTcp.h */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		5290C512175DA76000C1EAEC /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				5290C513175DA76000C1EAEC /* Audio */,
+				5290C522175DA76000C1EAEC /* Decoder.cpp */,
+				5290C523175DA76000C1EAEC /* Decoder.h */,
+				5290C524175DA76000C1EAEC /* FMReader.cpp */,
+				5290C525175DA76000C1EAEC /* FMReader.h */,
+				5290C526175DA76000C1EAEC /* FMReaderJNV.cpp */,
+				5290C527175DA76000C1EAEC /* FMReaderJNV.h */,
+				5290C528175DA76000C1EAEC /* ImgConver.cpp */,
+				5290C529175DA76000C1EAEC /* ImgConver.h */,
+				5290C52A175DA76000C1EAEC /* JBuffPool.cpp */,
+				5290C52B175DA76000C1EAEC /* JBuffPool.h */,
+				5290C52C175DA76000C1EAEC /* JNVPlayer.cpp */,
+				5290C52D175DA76000C1EAEC /* JNVPlayer.h */,
+				5290C52E175DA76000C1EAEC /* JNVPlayerMng.cpp */,
+				5290C52F175DA76000C1EAEC /* JNVPlayerMng.h */,
+				5290C530175DA76000C1EAEC /* JRecFile.cpp */,
+				5290C531175DA76000C1EAEC /* JRecFile.h */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		5290C513175DA76000C1EAEC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5290C514175DA76000C1EAEC /* g711.cpp */,
+				5290C515175DA76000C1EAEC /* g726.cpp */,
+				5290C516175DA76000C1EAEC /* g726.h */,
+				5290C517175DA76000C1EAEC /* g726_16.cpp */,
+				5290C518175DA76000C1EAEC /* g726_24.cpp */,
+				5290C519175DA76000C1EAEC /* g726_32.cpp */,
+				5290C51A175DA76000C1EAEC /* g726_40.cpp */,
+				5290C51B175DA76000C1EAEC /* g72x.cpp */,
+				5290C51C175DA76000C1EAEC /* g72x.h */,
+				5290C51D175DA76000C1EAEC /* private.h */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5290C4B5175DA54D00C1EAEC /* JNVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5290C4DB175DA54E00C1EAEC /* Build configuration list for PBXNativeTarget "JNVPlayer" */;
+			buildPhases = (
+				5290C4B2175DA54D00C1EAEC /* Sources */,
+				5290C4B3175DA54D00C1EAEC /* Frameworks */,
+				5290C4B4175DA54D00C1EAEC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNVPlayer;
+			productName = JNVPlayer;
+			productReference = 5290C4B6175DA54D00C1EAEC /* libJNVPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5290C4AE175DA54D00C1EAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = John;
+			};
+			buildConfigurationList = 5290C4B1175DA54D00C1EAEC /* Build configuration list for PBXProject "JNVPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5290C4AD175DA54D00C1EAEC;
+			productRefGroup = 5290C4B7175DA54D00C1EAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5290C4B5175DA54D00C1EAEC /* JNVPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5290C4B2175DA54D00C1EAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5290C4C1175DA54D00C1EAEC /* JNVPlayer.m in Sources */,
+				5290C4F3175DA71600C1EAEC /* JGetRunTimeTC.cpp in Sources */,
+				5290C4FD175DA72700C1EAEC /* IOSUtils.cpp in Sources */,
+				5290C4FE175DA72700C1EAEC /* JJson.cpp in Sources */,
+				5290C4FF175DA72700C1EAEC /* json.cpp in Sources */,
+				5290C500175DA72700C1EAEC /* json_helper.cpp in Sources */,
+				5290C503175DA74400C1EAEC /* JNVPlayerIOS.cpp in Sources */,
+				5290C50E175DA75500C1EAEC /* JNVCmdTcp.cpp in Sources */,
+				5290C50F175DA75500C1EAEC /* JNVProtocolTCP.cpp in Sources */,
+				5290C510175DA75500C1EAEC /* JNVStreamTcp.cpp in Sources */,
+				5290C511175DA75500C1EAEC /* JNVTalkTcp.cpp in Sources */,
+				5290C534175DA76000C1EAEC /* g711.cpp in Sources */,
+				5290C535175DA76000C1EAEC /* g726.cpp in Sources */,
+				5290C536175DA76000C1EAEC /* g726_16.cpp in Sources */,
+				5290C537175DA76000C1EAEC /* g726_24.cpp in Sources */,
+				5290C538175DA76000C1EAEC /* g726_32.cpp in Sources */,
+				5290C539175DA76000C1EAEC /* g726_40.cpp in Sources */,
+				5290C53A175DA76000C1EAEC /* g72x.cpp in Sources */,
+				5290C53D175DA76000C1EAEC /* Decoder.cpp in Sources */,
+				5290C53E175DA76000C1EAEC /* FMReader.cpp in Sources */,
+				5290C53F175DA76000C1EAEC /* FMReaderJNV.cpp in Sources */,
+				5290C540175DA76000C1EAEC /* ImgConver.cpp in Sources */,
+				5290C541175DA76000C1EAEC /* JBuffPool.cpp in Sources */,
+				5290C542175DA76000C1EAEC /* JNVPlayer.cpp in Sources */,
+				5290C543175DA76000C1EAEC /* JNVPlayerMng.cpp in Sources */,
+				5290C544175DA76000C1EAEC /* JRecFile.cpp in Sources */,
+				5290C545175DA76000C1EAEC /* ProtocolNV.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5290C4D9175DA54E00C1EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5290C4DA175DA54E00C1EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5290C4DC175DA54E00C1EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				DSTROOT = /tmp/JNVPlayer.dst;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JNVPlayer/JNVPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					JNVSDK_EXPORTS,
+				);
+				HEADER_SEARCH_PATHS = ../ffmpeg_ios/;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5290C4DD175DA54E00C1EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				DSTROOT = /tmp/JNVPlayer.dst;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JNVPlayer/JNVPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = JNVSDK_EXPORTS;
+				HEADER_SEARCH_PATHS = ../ffmpeg_ios/;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5290C4B1175DA54D00C1EAEC /* Build configuration list for PBXProject "JNVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5290C4D9175DA54E00C1EAEC /* Debug */,
+				5290C4DA175DA54E00C1EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5290C4DB175DA54E00C1EAEC /* Build configuration list for PBXNativeTarget "JNVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5290C4DC175DA54E00C1EAEC /* Debug */,
+				5290C4DD175DA54E00C1EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5290C4AE175DA54D00C1EAEC /* Project object */;
+}

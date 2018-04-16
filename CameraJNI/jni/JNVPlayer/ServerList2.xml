@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<msg row="3" ret="1"><Node ServerID="11112" ServerName="cmd1" ServerIp="218.67.64.106" ServerPort="8808" DomainName="" CenterServerID="11111" CurFlag="1" Online="1" OnlineTime="2013-08-05 15:37:23" MemoryUsed="0" VirtualMemoryUsed="0" CPUUsedRate="0" ThreadNumber="0" HandleNumber="0"/>
+<Node ServerID="21112" ServerName="shangji" ServerIp="220.231.128.170" ServerPort="8808" DomainName="test" CenterServerID="21111" CurFlag="1" Online="1" OnlineTime="2013-08-05 15:37:23" MemoryUsed="0" VirtualMemoryUsed="0" CPUUsedRate="0" ThreadNumber="0" HandleNumber="0"/>
+<Node ServerID="31112" ServerName="fjsmcmd" ServerIp="218.86.119.220" ServerPort="8808" DomainName="218.86.119.220" CenterServerID="31111" CurFlag="1" Online="1" OnlineTime="2013-08-05 15:37:23" MemoryUsed="0" VirtualMemoryUsed="0" CPUUsedRate="0" ThreadNumber="0" HandleNumber="0"/>
+</msg>
